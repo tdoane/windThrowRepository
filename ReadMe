@@ -1,0 +1,12 @@
+This repository contains data and central python codes for Doanet et al., 2022, "Hillslope Roughness Reveals Forest Sensitivity to Extreme Winds". 
+
+Python Codes:
+1. Doane2022_ExtremeValueFitResist.py is a python script that iteratively changes the overlap between probability distributions of driving forces and resisting forces. 
+2. Doane2022_hourlyGustDist.py is a python script that develops the conditional distribution of strongest 3-second gust and hourly gust speeds. THen It develops the extreme value distribution of gust speeds. 
+
+Data: 
+1. MMGust.npy is a numpy array of 3 second gusts over two years.
+2. MMhourly.npy is a numpy array of hourly averaged wind speed over these two years. 
+3. MorganMonroeWind.csv is hourly averaged wind speed data over 20 years.
+4. varVals.npy is an array of values that are the bin edges for the pdf of topographic variance values
+5. pdfZVar.npy is a numpy array of the probability density for topographic roughness values. 
