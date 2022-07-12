@@ -7,6 +7,6 @@ Python Codes:
 Data: 
 1. MMGust.npy is a numpy array of 3 second gusts over two years.
 2. MMhourly.npy is a numpy array of hourly averaged wind speed over these two years. 
-3. MorganMonroeWind.csv is hourly averaged wind speed data over 20 years.
+3. MorganMonroeWind.zip is hourly averaged wind speed data over 20 years. This mus be unzipped for Doane2022_hourlyGustDist.py to run.
 4. varVals.npy is an array of values that are the bin edges for the pdf of topographic variance values
 5. pdfZVar.npy is a numpy array of the probability density for topographic roughness values. 
