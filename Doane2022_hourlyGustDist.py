@@ -18,7 +18,7 @@ plt.rcParams.update({
 grays = plt.get_cmap('hsv')
 
 ##Get Data
-fPath = "/home/tyler/Research/pitAndMound/Data/wind/MorganMonroeWind.csv"
+fPath = "MorganMonroeWind.csv"
 wind = pd.read_csv(fPath, skiprows=2)
 wind = wind.replace({-9999: None})
 wS = wind['WS_1_1_1']
